@@ -5,8 +5,7 @@ cask "harnest" do
   sha256 arm:   "00b2b3c4661f3522f5783e03993af7e4c7948d3e2b0f18cc88cb802c26c3a9cd",
          intel: "e3890b558098ed77a057de32da6249ec7be6dd82880b3014cc8f6ed74616363f"
 
-  url "https://github.com/nishimoto265/auto-improve/releases/download/v#{version}/harnest_darwin_#{arch}",
-      verified: "github.com/nishimoto265/auto-improve/"
+  url "https://github.com/nishimoto265/auto-improve/releases/download/v#{version}/harnest_darwin_#{arch}"
   name "HarNest"
   desc "Self-improving harness pipeline for AI coding agents"
   homepage "https://github.com/nishimoto265/auto-improve"
